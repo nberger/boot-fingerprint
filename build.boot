@@ -14,9 +14,9 @@
 (bootlaces! +version+)
 
 (task-options!
- pom {:project 'boot-fingerprint
+ pom {:project 'org.clojars.nberger/boot-fingerprint
       :version +version+
       :description "Boot task to fingerprint asset references in html files."
-      :url "https://github.com/pointslope/boot-fingerprint"
-      :scm {:url "https://github.com/pointslope/boot-fingerprint"}
+      :url "https://github.com/nberger/boot-fingerprint"
+      :scm {:url "https://github.com/nberger/boot-fingerprint"}
       :license {"EPL" "http://www.eclipse.org/legal/epl-v10.html"}})
